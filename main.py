@@ -11,6 +11,7 @@ number_converter = {
     "8" : "Eight",
     "9" : "Nine"
 }
+
 result = ""
 for ch in number:
     result += number_converter.get(ch , '!') + " "
